@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="kr">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 적용방법 1 -->
+    <script src="js/jquery.js"></script>
+    <!-- 적용방법 2 : cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- 적용방법 3 -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <title>Na1stone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="tag.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+
+
+    <script>
+        $(window).load(function(){
+            $('.container').delay('900').fadeOut();
+            $('.main').hide();
+        })
+
+        setTimeout(function() {
+            $('.main').show();
+        }, 1500);
+        
+     </script>
+
+</head>
+
+<body>
+
+    <div class="container">
+   
+        <svg class="loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340">
+           <circle cx="170" cy="170" r="160" stroke="#E2007C"/>
+           <circle cx="170" cy="170" r="135" stroke="#404041"/>
+           <circle cx="170" cy="170" r="110" stroke="#E2007C"/>
+           <circle cx="170" cy="170" r="85" stroke="#404041"/>
+        </svg>
+    </div>
+
+       <div class="first"> </div>
+
+   </div>
+
+    <div style="font-family: 'Ubuntu Condensed', sans-serif;" class="main">
+        <div class="name">
+            <h1>Na Won Seok </h1>
+            <p>나 원 석 </p>
+         <div class="button">
+          <button type="button" onclick="window.open('https://www.notion.so/Na-Won-Seok-4079e605411244abaf4855b3ee2aee02')">Notion</button>
+          <button type="button" onclick="location.href='https://github.com/Na1stibe' ">Github</button>
+         </div>
+         <h6>na1stone.kr</h6>
+      </div>
+    </div>
+</body> 
+</html>
