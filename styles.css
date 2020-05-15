@@ -1,7 +1,5 @@
 @import "reset.css";
 
-
-
 .container {
     display: flex;
     align-items: center;
@@ -56,10 +54,13 @@
    }
 }
 body{
-    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
     background:linear-gradient(135deg, #3425AF 10%,#0470dc 50%, #8B0000 100%);
-    background-size: 100% 100%;
+    background-size: 100% 100%; 
     margin: 0;
+    position: absolute;
 }
 .first{
     display: flex;
